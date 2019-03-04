@@ -1,2 +1,2 @@
-gitee.com/pefish/p-go-slice v0.0.0-20190209101637-f36362618ade h1:WVjcmIEeAeZdW+evYFyzt91V+vGp/5il220autJZ1vA=
-gitee.com/pefish/p-go-slice v0.0.0-20190209101637-f36362618ade/go.mod h1:ZyCJpPbzUzHqZIaKPQo5nlzrX+E/TQN4gVM3ZP5IFrQ=
+github.com/pefish/go-slice v0.0.1 h1:al0FykGL/yHmDzO1MBXVqDyxTd/0256S/CXz6/hU83Y=
+github.com/pefish/go-slice v0.0.1/go.mod h1:DGp15ObvqIv9vMjxxQt9RXJc52QtkZGg0gcfMv1KsR0=

@@ -1,7 +1,7 @@
 package p_map
 
 import (
-	"gitee.com/pefish/p-go-slice"
+	"github.com/pefish/go-slice"
 	"reflect"
 )
 

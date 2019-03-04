@@ -1,3 +1,3 @@
-module gitee.com/pefish/p-go-map
+module github.com/pefish/go-map
 
-require gitee.com/pefish/p-go-slice v0.0.0-20190209101637-f36362618ade
+require github.com/pefish/go-slice v0.0.1
