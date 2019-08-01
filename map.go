@@ -1,7 +1,6 @@
-package p_map
+package go_map
 
 import (
-	"github.com/pefish/go-slice"
 	"reflect"
 )
 
@@ -52,7 +51,14 @@ func (this *MapClass) Append(maps_ ...map[string]interface{}) (out map[string]in
 
 func (this *MapClass) Remain(map_ map[string]interface{}, fields []string) (out map[string]interface{}) {
 	for key, _ := range map_ {
-		if !p_slice.Slice.IncludesBySliceString(fields, key) {
+		has := false
+		for _, s := range fields {
+			if s == key {
+				has = true
+				break
+			}
+		}
+		if has == false {
 			delete(map_, key)
 		}
 	}
